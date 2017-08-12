@@ -9,8 +9,8 @@
 body {
   background-color: #a7abd8;
   background-image: url("./assets/images/bg-land.jpg");
-  background-position-y: bottom;
-  background-repeat-y: no-repeat;
+  background-position: left bottom;
+  background-repeat: repeat no-repeat;
   display: flex;
   font-family: sans-serif;
   justify-content: center;

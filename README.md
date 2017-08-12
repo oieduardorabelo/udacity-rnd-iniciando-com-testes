@@ -23,6 +23,10 @@ O mínimo necessário para rodar esses exemplos:
 
 ![](./docs/00.png)
 
+![](./docs/01.png)
+
+![](./docs/02.png)
+
 Precisando de ajuda, você pode:
 
 - Dar uma espiada na [documentação da API TestCafé](http://devexpress.github.io/testcafe/documentation/test-api/)
