@@ -1,0 +1,17 @@
+.TextHero {
+  font-size: 52px;
+  margin: 0;
+}
+
+.TextHero--boss {
+  padding: 24px;
+  max-width: 448px;
+  text-align: center;
+}
+
+/***************************************
+* Context
+***************************************/
+.App > .TextHero--boss {
+  margin-top: 48px;
+}

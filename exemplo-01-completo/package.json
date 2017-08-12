@@ -4,18 +4,22 @@
   "private": true,
   "dependencies": {
     "enzyme": "^2.9.1",
-    "nightmare": "^2.10.0",
+    "npm-run-all": "^4.0.2",
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-icons": "^2.2.5",
     "react-scripts": "1.0.11",
     "react-test-renderer": "^15.6.1",
-    "styled-components": "^2.1.2",
     "testcafe": "^0.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "test:all": "npm-run-all test:unit test:e2e",
+    "test:unit": "react-scripts test --env=jsdom --coverage",
+    "test:e2e": "testcafe firefox \"e2e/**/*.js\"",
     "eject": "react-scripts eject"
   }
 }

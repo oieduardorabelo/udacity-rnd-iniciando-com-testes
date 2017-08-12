@@ -1,0 +1,19 @@
+.Progress {
+  height: 40px;
+  position: relative;
+}
+
+.Progress-bar {
+  background-color: #f988a7;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 0;
+  z-index: 2;
+}
+
+.Progress-bar--placeholder {
+  background-color: #e6e6f3;
+  width: 100%;
+  z-index: 1;
+}

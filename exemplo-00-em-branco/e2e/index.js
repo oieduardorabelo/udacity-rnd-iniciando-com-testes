@@ -1,0 +1,5 @@
+- Exemplos de BDD e TDD serão baseados no primeiro living code: "Começando com React: um app to-do list"
+- Para o exemplo de Teste de Integração (E2E/Functional Test), iremos ter uma aplicação de exemplo com uma interface já criada
+- Essa aplicação será um video player, com barra de progresso, play/pause
+- Iremos escrever testes E2E para manipular o video player e testar suas funcionalidades
+- Utilizaremos a biblioteca opensource, em Node, do TestCafé

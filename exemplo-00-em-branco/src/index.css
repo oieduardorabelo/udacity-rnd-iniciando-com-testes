@@ -1,0 +1,58 @@
+/***************************************
+* Out of React scope :(
+***************************************/
+@font-face {
+  font-family: "Super Mario";
+  src: url("./assets/fonts/super-mario-bros.ttf");
+}
+
+body {
+  background-color: #a7abd8;
+  background-image: url("./assets/images/bg-land.jpg");
+  background-position-y: bottom;
+  background-repeat-y: no-repeat;
+  display: flex;
+  font-family: sans-serif;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+#Root {
+  display: flex;
+}
+
+/***************************************
+* Inspired by:
+* http://tachyons.io/docs/table-of-styles/
+***************************************/
+.ff-mario {
+  font-family: "Super Mario";
+}
+
+/* lsh => letter-space-horizontal */
+.lsh-1 {
+  margin-left: 0.5ch;
+  margin-right: 0.5ch;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.button-reset {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+}
